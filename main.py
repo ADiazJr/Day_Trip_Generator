@@ -81,30 +81,34 @@ def trip_confirmation_message():
         return trip_confirm
 
 def changing_options():
-    trip_change= input('''We're sorry you didn't like your options, which part of your trip would you like to change?
-        For Location Type 1:
-        For Restaurant Type 2:
-        For Transportation Type 3:
-        For Entertainment Type 4:''')
-    if trip_change == "1":
-            global set_destination
-            set_destination = destination_set()
-            return set_destination
+    finalize = False
+    while finalize is False:
+        trip_change= input('''We're sorry you didn't like your options, which part of your trip would you like to change?
+            For Location Type 1:
+            For Restaurant Type 2:
+            For Transportation Type 3:
+            For Entertainment Type 4:''')
+        if trip_change == "1":
+                global set_destination
+                set_destination = destination_set()
+                return set_destination
 
-    if trip_change == "2":
-            global set_restaurant
-            set_restaurant = restaurant_set()
-            return set_restaurant
-        
-    if trip_change=="3":
-            global set_transportation
-            set_transportation = transportation_set()
-            return set_transportation
+        if trip_change == "2":
+                global set_restaurant
+                set_restaurant = restaurant_set()
+                return set_restaurant
+            
+        if trip_change=="3":
+                global set_transportation
+                set_transportation = transportation_set()
+                return set_transportation
 
-    if trip_change == "4":
-            global set_entertainment
-            set_entertainment= entertainment_set()
-            return set_entertainment
+        if trip_change == "4":
+                global set_entertainment
+                set_entertainment= entertainment_set()
+                return set_entertainment
+        else:
+            print("Sorry that is not an option please try again")
            
 def confirmed():
     print(f'''Thanks for using Day Trip Generator!
