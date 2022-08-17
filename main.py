@@ -1,7 +1,7 @@
 destinations = ['Paris', 'Tokyo', 'Rome', 'Greece', "Los Angeles", 'Cancun', 'Las Vegas', 'Egypt', 'Puerto Rico', 'Brazil', 'Madagascar', "Alaska", "Miami", 'Amsterdam', 'Belgium', 'Iceland', 'London', 'Bora Bora']
 restaurants = ['Coopers Hawk', 'Olive Garden', 'Red Lobster', "Hells Kitchen", 'Eggology', 'Savoury', 'Burnt Toast', 'The Fire Grille', 'Batter and Berries', 'Offshore Rooftop', 'Nutella Cafe']
 transportation = ['Bus', 'Airplane', 'Train', 'Car', 'Boat', 'Bike', 'Helicopter', 'Ferry']
-entertainment = ['Go Gambling', 'Go Shopping', 'Visit Historical Monument', 'Ask the Locals for what to do', 'Go to the club', 'Try new food']
+entertainment = ['Go Gambling', 'Go Shopping', 'Visit Historical Monument', 'go skydiving', 'Go to the club', 'Try a cultural dish', 'Go to a sports game', 'Go to the Opera', 'Go on a boat ride']
 
 import random
 
